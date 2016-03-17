@@ -1,0 +1,65 @@
+.navSection{
+    position:fixed;
+    top:0;
+    font-family: 'workSansReg';
+    width:100%;
+    background-color: #3e464c;
+}
+.logo{
+    margin:0;
+    padding:10px 15px 10px 15px;
+    color:white;
+}
+ul {
+    list-style-type: none;
+}
+#navbarList{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 0;
+    overflow: hidden;
+    height: 54px;
+}
+#navbarList li{
+    float: left;
+}
+#navbarList li a:hover{
+    color:#2196F3;
+}
+#navbarList li a{
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size:1.5em;
+    margin:7px 15px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    height:100%;
+}
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}

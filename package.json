@@ -1,0 +1,19 @@
+{
+	"name":"pcrevival.com",
+	"email":"kpderosh@gmail.com",
+	"version":"0.0.0",
+	"description" : "A tool to analysis league of legends players",
+	"author":"Kyle Derosha",
+	"main" : "pcrevivalpcrevival.js",
+	"dependencies":{
+		"express":"latestpcrevival",
+		"cookie-parser":"latest",
+		"express-session":"latest",
+		"mongodb":"latest",
+		"body-parser":"latest",
+		"crypto":"latest",
+		"morgan":"latest",
+		"request":"latest"
+	}, 
+	"homepage":"https://pcrevival.com"
+}

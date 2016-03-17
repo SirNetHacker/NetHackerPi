@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="pcrevival" lang="en">
+    <head>
+        <title>PcRevival</title>
+
+        <script text="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="./js/angular.min.js"></script>
+        <script type="text/javascript" src="./js/angular-route.min.js"></script>
+        
+        
+        <!-- MAIN APP JAVASCRIPT FILE !-->
+        <script type="text/javascript" src="index.js"></script>
+
+        <!-- INITIALIZE the modules !-->
+        <script type="text/javascript" src="modules.js"></script>
+        <script type="text/javascript" src="indexControllers.js"></script>
+        <script type="text/javascript" src="indexServices.js"></script>
+
+        <!-- HOME !-->
+        <script type="text/javascript" src="components/Home/homeController.js"></script>
+        <!--any home controllers go in this file.!-->
+        <script type="text/javascript" src="components/ErrorPages/errorControllers.js"></script>
+         
+        <!-- Navbar component !-->
+        <script type="text/javascript" src="components/Navbar/navbarDirectives.js"></script>
+        
+        <!-- custom stuff! -->
+        <link rel="stylesheet" href="./css/Bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/navbar.css">
+    </head>
+
+    <body ng-controller="IndexController as index" id="body" style="background-color: #374046">
+
+        <!-- HEADER AND NAVBAR !-->
+        <navbar></navbar>
+        
+        <!-- display current view based on the url for our single page application!--> 
+        <div>
+            <div ng-view></div>
+        </div>
+        <!-- Javascript !-->
+        <script src="./js/Bootstrap/bootstrap.min.js"></script>
+    </body>
+</html>
